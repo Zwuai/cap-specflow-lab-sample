@@ -1,0 +1,17 @@
+﻿url: POWERAPPS_SPECFLOW_BINDINGS_TEST_URL
+browserOptions:
+  browserType: Chrome #If using another driver, update this here
+  headless: true
+  width: 1920
+  height: 1080
+  startMaximized: false
+applicationUser:
+  tenantId: POWERAPPS_SPECFLOW_BINDINGS_TEST_TENANTID
+  clientId: POWERAPPS_SPECFLOW_BINDINGS_TEST_CLIENTID
+  clientSecret: POWERAPPS_SPECFLOW_BINDINGS_TEST_CLIENTSECRET
+users:
+  - username: POWERAPPS_SPECFLOW_BINDINGS_TEST_ADMIN_USERNAME
+    password: POWERAPPS_SPECFLOW_BINDINGS_TEST_ADMIN_PASSWORD
+    alias: a basic user
+  - username: POWERAPPS_SPECFLOW_BINDINGS_TEST_ADMIN_USERNAME
+    alias: an impersonated user
